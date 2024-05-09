@@ -1,20 +1,75 @@
 .container {
-  max-width: 1580px;
   align-items: center;
   display:flex;
   justify-content: center;
-  margin: 0 auto;
-  width: 100%;
+  margin: 160px auto;
+
+ 
    
 }
 .app{
   display: flex;
+  max-width:1020px;
+  border: 1px solid gray;
+  justify-content: center;
+  width: 100%;
+  padding:25px 5px 95px;
   
 }
-.display-weather 
-.weather-details {
-  flex-grow: 1;
+
+.display-weather{
+  order: -1;
+  width:50%;
+  
+ 
+}
+.location{
+  margin-bottom: 120px;
+
 }
 
+.weather-details{
+  order: -2;
+  
+}
+.hours-container{
+  order: -3;
+}
+.weather-app-h1{
+  display:flex;
+  
+}
 
+.city-temp {
+  display:flex;
+  
+}
+.temperature {
+  margin-right:20px;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:50px;
+
+
+ }
+ .calender{
+  display: flex;
+  flex-wrap: nowrap;
+  
+ }
+
+ .box {
+  flex:1;
+  background-color:rgba(128, 128, 128, 0.5);
+  border:1px solid lightgray;
+  display: inline-block;
+  padding: 23px 10px;
+  width: 30px;
+ }
+
+
+ 
 
