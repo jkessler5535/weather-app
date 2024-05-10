@@ -1,31 +1,34 @@
 import React from 'react';
 import '../Styles/Home.css';
+import Sky from '../Images/sky.jpg';
 
 
 const Home = () => {
   return (
   <div className="container">
-    <div className="app">
-     
-        <div className="display-weather">
-          <div className="location">
+    <div>
+      <div className="app">
+         <div className="display-weather">
             <div className="weather-app-h1">
               <h1>Weather App</h1>
             </div>
-            <div className="city-temp">
-              <h2 className="temperature">Temperature</h2>
-              <h2 className="city">City</h2>
+            <div className="location">
+              <div className="city-temp">
+                <h2 className="temperature">29&#176;</h2>
+                <h2 className="city">Dhaka</h2>
+                <p classame="location-p">9:30am - Friday, 27 May '22</p>
+              </div>
+         
+              <div className="calendar">
+                <div className="box">May 28</div>
+                <div className="box">May 29</div>
+                <div className="box">May 30</div>
+                <div className="box">May 31</div>
+                <div className="box"> June 01</div>
+                <div className="box">June 02</div>
+                <div className="box">June 03</div>
+              </div>
             </div>
-          </div>
-          <div className="calendar">
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-          </div>
         </div>
 
         <div className="details-container">
@@ -82,7 +85,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      
+      </div>
     </div>
   </div>
   );
