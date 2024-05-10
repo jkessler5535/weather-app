@@ -40,12 +40,13 @@
   margin-right: 38px;
   margin-left:30px;
   width: 50%;
+  padding: 15px;
   
 
  
 }
 .location{
- margin-top:320px;
+ margin-top:215px;
  margin-left: 15px;
  
 }
@@ -72,7 +73,6 @@
   
   .city-temp {
    display:flex;
-   flex-direction: row;
    align-items: center;
    padding-bottom: 0.25rem;
   
@@ -83,9 +83,20 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
  }
-
+ 
  .city-temp h2 {
   margin: 0;
+
+ }
+ 
+ .city {
+  font-size: 3rem;
+ }
+
+ .date{
+  display: block;
+  
+  
  }
 
   .grid-container{
@@ -103,7 +114,7 @@
  .box {
   font-size:17px;
   flex:1;
-  background-color:rgba(211, 211, 211, 0.3);
+  background-color:rgba(211, 211, 211, 0.5);
   border:1px solid rgba(255, 255, 255, 0.2);
   display: inline-block;
   padding: 10px 20px;
