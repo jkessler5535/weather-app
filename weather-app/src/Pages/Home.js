@@ -5,7 +5,7 @@ import Sky from '../Images/sky.jpg';
 
 const Home = () => {
   return (
-  <div className="container">
+  <div className="container background">
     <div>
       <div className="app">
           <div className="display-weather">
@@ -17,11 +17,13 @@ const Home = () => {
                   <div className="temperature">
                     <h2>29&#176;</h2>
                   </div>
-                <div className="city">
-                  <h2>Dhaka</h2>
+                  <div className="city">
+                    <h2>Dhaka</h2>
+                  <div>
                    <p className="date">9:30am - Friday, 27 May '22</p>
                    <p className="date date-right">Partly Cloudy</p>
-                </div>
+                  </div>
+              </div>
               </div>
             </div>
               
