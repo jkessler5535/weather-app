@@ -8,10 +8,10 @@ const Home = () => {
   <div className="container background">
     <div>
       <div className="app">
+        <div className="weather-app-h1">
+            <h1>Weather App</h1>
+        </div>
         <div className="display-weather">
-              <div className="weather-app-h1">
-                <h1>Weather App</h1>
-              </div>
           <div className="location">
             <div className="city-temp">
                 <div className="temperature">
@@ -19,25 +19,26 @@ const Home = () => {
                 </div>
                 <div className="city">
                   <h2>Dhaka</h2>
-                <div className="date">
-                  <p >9:30am - Friday, 27 May '22</p>
-                  <p className="date-right">Partly Cloudy</p>
+                  <div className="date">
+                    <p >9:30am - Friday, 27 May '22</p>
+                    <p className="date-right">Partly Cloudy</p>
+                  </div>
                 </div>
-              </div>
             </div>
-          </div>
+          
               
          
-              <div className="calendar">
-                <div className="box">May 28</div>
-                <div className="box">May 29</div>
-                <div className="box">May 30</div>
-                <div className="box">May 31</div>
-                <div className="box"> Jun 01</div>
-                <div className="box">Jun 02</div>
-                <div className="box">Jun 03</div>
+                  <div className="calendar">
+                    <div className="box">May 28</div>
+                    <div className="box">May 29</div>
+                    <div className="box">May 30</div>
+                    <div className="box">May 31</div>
+                    <div className="box"> Jun 01</div>
+                    <div className="box">Jun 02</div>
+                    <div className="box">Jun 03</div>
+                  </div>
               </div>
-        </div>
+            </div>
       
           
           <div className="details-container">
@@ -66,39 +67,38 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="hours-container">
-                <div className="heading">
-                  <h2>Next Hours</h2>
-                </div>
-                <div className="underline"></div>
-                <div className="grid-container">
-                  <div className="left-column">
-                    <ul>
-                      <li>10am</li>
-                      <li>11am</li>
-                      <li>12pm</li>
-                      <li>1pm</li>
-                      <li>2pm</li>
-                    </ul>
-                  </div>
-                  <div className="right-column-2">
-                    <div className="right-column">
-                      <ul>
-                        <li>30&#176;</li>
-                        <li>31&#176;</li>
-                        <li>31&#176;</li>
-                        <li>31&#176;</li>
-                        <li>31&#176;</li>
-                      </ul>
-                    </div>
-                  </div>
+          <div className="hours-container">
+            <div className="heading">
+              <h2>Next Hours</h2>
+            </div>
+            <div className="underline"></div>
+            <div className="grid-container">
+              <div className="left-column">
+                <ul>
+                  <li>10am</li>
+                  <li>11am</li>
+                  <li>12pm</li>
+                  <li>1pm</li>
+                  <li>2pm</li>
+                </ul>
+              </div>
+              <div className="right-column-2">
+                <div className="right-column">
+                  <ul>
+                    <li>30&#176;</li>
+                    <li>31&#176;</li>
+                    <li>31&#176;</li>
+                    <li>31&#176;</li>
+                    <li>31&#176;</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    
+    </div>
+  </div>
   );
 };
 
