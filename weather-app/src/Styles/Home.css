@@ -39,7 +39,7 @@ body {
 }
 
 
-.display-weather ,.location{
+.display-weather{
   display: flex;
   justify-content: space-between;
   flex-direction: column;

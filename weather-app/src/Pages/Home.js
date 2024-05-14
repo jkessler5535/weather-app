@@ -12,8 +12,7 @@ const Home = () => {
             <h1>Weather App</h1>
         </div>
 
-        <div className="display-weather location">
-          
+        <div className="display-weather">
             <div className="city-temp">
                 <div className="temperature">
                   <h2>29&#176;</h2>
