@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Home.css';
-import Sky from '../Images/sky.jpg';
+
 
 
 const Home = () => {
@@ -8,24 +8,24 @@ const Home = () => {
   <div className="container background">
     <div>
       <div className="app">
-          <div className="display-weather">
+        <div className="display-weather">
               <div className="weather-app-h1">
                 <h1>Weather App</h1>
               </div>
-            <div className="location">
-              <div className="city-temp">
-                  <div className="temperature">
-                    <h2>29&#176;</h2>
-                  </div>
-                  <div className="city">
-                    <h2>Dhaka</h2>
-                  <div>
-                   <p className="date">9:30am - Friday, 27 May '22</p>
-                   <p className="date date-right">Partly Cloudy</p>
-                  </div>
-              </div>
+          <div className="location">
+            <div className="city-temp">
+                <div className="temperature">
+                  <h2>29&#176;</h2>
+                </div>
+                <div className="city">
+                  <h2>Dhaka</h2>
+                <div className="date">
+                  <p >9:30am - Friday, 27 May '22</p>
+                  <p className="date-right">Partly Cloudy</p>
+                </div>
               </div>
             </div>
+          </div>
               
          
               <div className="calendar">
@@ -33,16 +33,16 @@ const Home = () => {
                 <div className="box">May 29</div>
                 <div className="box">May 30</div>
                 <div className="box">May 31</div>
-                <div className="box"> June 01</div>
-                <div className="box">June 02</div>
-                <div className="box">June 03</div>
+                <div className="box"> Jun 01</div>
+                <div className="box">Jun 02</div>
+                <div className="box">Jun 03</div>
               </div>
-          </div>
+        </div>
       
           
           <div className="details-container">
               <div className="weather-details">
-                <div className="heading">
+                <div className="heading search">
                   <h2>Weather Details</h2>
                 </div>
                 <div className="underline"></div>
@@ -71,8 +71,8 @@ const Home = () => {
                   <h2>Next Hours</h2>
                 </div>
                 <div className="underline"></div>
-                <div class="grid-container">
-                  <div class="left-column">
+                <div className="grid-container">
+                  <div className="left-column">
                     <ul>
                       <li>10am</li>
                       <li>11am</li>
@@ -81,7 +81,7 @@ const Home = () => {
                       <li>2pm</li>
                     </ul>
                   </div>
-                  <div class="right-column-2">
+                  <div className="right-column-2">
                     <div className="right-column">
                       <ul>
                         <li>30&#176;</li>
@@ -94,10 +94,11 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    
   );
 };
 
