@@ -23,15 +23,15 @@ body {
   display: flex;
   border-radius: 1px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  justify-content: center;
   width: 100%;
   height: 65vh;
   background-image: url('../Images/clouds.jpg');
- 
+  
 }
 
 .details-container {
   vertical-align: center;
+  justify-content: center;
   position: relative;
   width: 50%;
   padding: 40px 80px;
@@ -41,56 +41,66 @@ body {
 
 .display-weather{
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   order: -1;
-  margin:0 30px;
+  margin-top:240px;
+  margin-left: 60px;
   width: 50%;
-  padding: 15px;
+  padding:15px;
+  justify-content: center;
+  align-items: center;
   
 
 }
-
+.city-temp,
+.calendar {
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+}
 
 .weather-details{
+  padding:8px;
   order: -2;
 }
   
 .hours-container{
   order: -3;
 }
-.weather-app-h1{
+.weather-app-h1 {
   display:flex;
-  
-  
-  }
+  position: absolute;
+}
+
   .weather-app-h1 h1{
-    font-size: 17px;
+    margin-left:60px;
+    margin-top:35px;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     color: white;
     
+
   }
 
   .city {
-    margin-left: 35px;
-    
+    margin-left: 20px;
     
   }
   
   .city-temp {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding-bottom: 0.25rem;
    
+    
  }
  .temperature h2{
-  font-size:6rem;
+  font-size:6.5rem;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  
  
  }
  
@@ -99,21 +109,40 @@ body {
   font-size: 3rem;
   font-weight: 500;
   color: white;
- 
- 
+  
+
  }
+ 
  
  .date{
   display: flex;
   color: white;
-  font-size: 14px;
-
+  font-size: 13px;
+ 
  }
 
-  .date-right{
-    margin-left: 20px;
+ .date p {
+  margin-right:20px;
+
+ }
+  .date-right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
   }
  
+  img  {
+    width: 45px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+  
+  }
+
   .grid-container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -123,6 +152,8 @@ body {
  .calendar{
   display: flex;
   flex-wrap: nowrap;
+  
+ 
  }
  
  .box {

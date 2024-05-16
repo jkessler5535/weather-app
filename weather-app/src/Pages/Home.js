@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Styles/Home.css';
+import partlyCloudy from '../Images/partly-cloudy.png';
+
 
 
 
@@ -8,11 +10,10 @@ const Home = () => {
   <div className="container background">
     <div>
       <div className="app">
-        <div className="weather-app-h1">
-            <h1>Weather App</h1>
-        </div>
-
-        <div className="display-weather">
+          <div className="weather-app-h1">
+                  <h1>Weather App</h1>
+          </div>
+          <div className="display-weather">
             <div className="city-temp">
                 <div className="temperature">
                   <h2>29&#176;</h2>
@@ -21,7 +22,7 @@ const Home = () => {
                   <h2>Dhaka</h2>
                   <div className="date">
                     <p>9:30am - Friday, 27 May '22</p>
-                    <p className="date-right">Partly Cloudy</p>
+                    <p className="date-right"><img src={partlyCloudy} alt ="cloudy"/>Partly Cloudy</p>
                   </div>
                 </div>
             </div>
@@ -35,7 +36,7 @@ const Home = () => {
               <div className="box">Jun 02</div>
               <div className="box">Jun 03</div>
             </div>
-        </div>
+          </div>
       
           
           <div className="details-container">
