@@ -11,19 +11,20 @@ const Home = () => {
     <div>
       <div className="app">
           <div className="weather-app-h1">
-                  <h1>Weather App</h1>
+              <h1>Weather App</h1>
           </div>
           <div className="display-weather">
             <div className="city-temp">
-                <div className="temperature">
-                  <h2>29&#176;</h2>
+                <div className="temperature ">
+                  <h2 className="degree">29&#176;</h2>
+                  <h2 className="city">Dhaka</h2>
+                  <span className="image"><img src={partlyCloudy} alt ="cloudy"  className="transparent-gray" />
+                  </span>
                 </div>
-                <div className="city">
-                  <h2>Dhaka</h2>
-                  <div className="date">
-                    <p>9:30am - Friday, 27 May '22</p>
-                    <p className="date-right"><img src={partlyCloudy} alt ="cloudy"/>Partly Cloudy</p>
-                  </div>
+                  
+                <div className="date">
+                  <p className="time">9:30am - Friday, 27 May '22</p>
+                  <p className="condition">Partly Cloudy</p>
                 </div>
             </div>
           
@@ -41,7 +42,7 @@ const Home = () => {
           
           <div className="details-container">
               <div className="weather-details">
-                <div className="heading search">
+                <div className="heading">
                   <h2>Weather Details</h2>
                 </div>
                 <div className="underline"></div>

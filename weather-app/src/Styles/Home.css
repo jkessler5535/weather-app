@@ -30,38 +30,27 @@ body {
 }
 
 .details-container {
-  vertical-align: center;
-  justify-content: center;
-  position: relative;
   width: 50%;
   padding: 40px 80px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+  
 }
+
 
 
 .display-weather{
   display: flex;
   flex-direction: column;
   order: -1;
-  margin-top:240px;
-  margin-left: 60px;
+  margin:280px auto;
   width: 50%;
-  padding:15px;
-  justify-content: center;
-  align-items: center;
+  padding:45px;
   
-
-}
-.city-temp,
-.calendar {
- justify-content: center;
- align-items: center;
- margin: 0 auto;
 }
 
 .weather-details{
-  padding:8px;
+  padding:12px;
   order: -2;
+  margin: 0 auto;
 }
   
 .hours-container{
@@ -74,79 +63,99 @@ body {
 
   .weather-app-h1 h1{
     margin-left:60px;
-    margin-top:35px;
+    margin-top:43px;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     color: white;
-    
-
+ 
   }
-
-  .city {
-    margin-left: 20px;
+  .city-temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .date{
+    display: flex;
     
   }
   
-  .city-temp {
-    display: flex;
-    flex-direction: row;
-   
-    
+ .temperature {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  margin-bottom: -48px;
+  padding:2px;
+  
  }
- .temperature h2{
-  font-size:6.5rem;
+
+ .degree{
+  font-size:5.9rem;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  
+  margin-left: 8px;
  
+
+ }
+
+ .temperature h2 {
+  margin-right: 12px;
  }
  
- 
- .city  h2{
-  font-size: 3rem;
+ .city  {
+  font-size: 2.9rem;
   font-weight: 500;
   color: white;
+ }
+
+ .date {
+  display: flex;
+  flex-direction: row;
+  margin-left:60px;
+  margin-bottom: 40px;
+  
   
 
  }
- 
- 
- .date{
-  display: flex;
-  color: white;
-  font-size: 13px;
+
+ .date p{
+   font-size:13px;
+   color:whitesmoke;
  
  }
 
- .date p {
-  margin-right:20px;
-
- }
-  .date-right {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    
-    
-   
-  }
- 
-  img  {
+  img {
     width: 45px;
     display: inline-block;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 12px;
   
   }
+  .image img {
+    filter: grayscale(100%) opacity (50%);
+  }
+  .transparent-gray{
+    filter: grayscale(100%) opacity(50%);
+  }
 
+  .time {
+    margin-left: 115px;
+    display: inline-block;
+  
+  }
+  
+  .condition{
+    margin-left: 30px;
+  }
+ 
   .grid-container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:180px;
+  
     
  }
  .calendar{
