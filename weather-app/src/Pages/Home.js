@@ -66,34 +66,34 @@ const Home = () => {
                 </div>
               </div>
 
-          <div className="hours-container">
-            <div className="heading">
-              <h2>Next Hours</h2>
-            </div>
-            <div className="underline"></div>
-            <div className="grid-container">
-              <div className="left-column">
-                <ul>
-                  <li>10am</li>
-                  <li>11am</li>
-                  <li>12pm</li>
-                  <li>1pm</li>
-                  <li>2pm</li>
-                </ul>
-              </div>
-              <div className="right-column-2">
-                <div className="right-column">
-                  <ul>
-                    <li>30&#176;</li>
-                    <li>31&#176;</li>
-                    <li>31&#176;</li>
-                    <li>31&#176;</li>
-                    <li>31&#176;</li>
-                  </ul>
+              <div className="hours-container">
+                <div className="heading">
+                  <h2>Next Hours</h2>
+                </div>
+                <div className="underline"></div>
+                <div className="grid-container">
+                  <div className="left-column">
+                    <ul>
+                      <li>10am</li>
+                      <li>11am</li>
+                      <li>12pm</li>
+                      <li>1pm</li>
+                      <li>2pm</li>
+                    </ul>
+                  </div>
+                  <div className="right-column-2">
+                    <div className="right-column">
+                      <ul>
+                        <li>30&#176;</li>
+                        <li>31&#176;</li>
+                        <li>31&#176;</li>
+                        <li>31&#176;</li>
+                        <li>31&#176;</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
