@@ -1,6 +1,10 @@
 import React from 'react';
 import '../Styles/Home.css';
-import partlyCloudy from '../Images/partly-cloudy.png';
+import Search from '../Images/search.png';
+import Snow from '../Images/snow.png';
+import Humidity from '../Images/humidity.png';
+import Wind from '../Images/wind.png';
+import PartCloud from '../Images/partly-cloudy.png';
 
 
 
@@ -14,11 +18,15 @@ const Home = () => {
               <h1>Weather App</h1>
           </div>
           <div className="display-weather">
+            <div className="search">
+                <input type="text" className="search-bar" placeholder="enter city name" spellCheck="false"/>
+                <button><img src={Search} alt="search-icon"></img></button>
+            </div>
             <div className="city-temp">
                 <div className="temperature ">
                   <h2 className="degree">29&#176;</h2>
                   <h2 className="city">Dhaka</h2>
-                  <span className="image"><img src={partlyCloudy} alt ="cloudy"  className="transparent-gray" />
+                  <span className="image"><img src={PartCloud} alt ="snow"/>
                   </span>
                 </div>
                   
